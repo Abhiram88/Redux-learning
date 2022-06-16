@@ -32,7 +32,7 @@ const reducer = (state = initialState, action) => {
         // }
 
         // second argument is a function that receives the draft copy of the state. It's like we are updating a copy of the state.
-        // like ...state
+        // like ...state 
         return produce(state, (draft) => {
             draft.address.street = action.payload;
         });
