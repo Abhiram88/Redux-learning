@@ -17,3 +17,5 @@ function App() {
 }
 
 export default App;
+
+// to make store available for application, reacct redux library exports a component called provider.

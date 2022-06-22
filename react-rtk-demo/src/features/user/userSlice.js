@@ -41,4 +41,3 @@ const userSlice = createSlice({
 
 
 export default userSlice.reducer
-module.exports.fetchUsers = fetchUsers
